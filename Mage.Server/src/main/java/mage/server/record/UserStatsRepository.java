@@ -22,7 +22,7 @@ public enum UserStatsRepository {
 
     instance;
 
-    private static final String JDBC_URL = "jdbc:sqlite:./db/user_stats.db";
+    private static final String JDBC_URL = "jdbc:sqlite:db/user_stats.db";
     private static final String VERSION_ENTITY_NAME = "user_stats";
     // raise this if db structure was changed
     private static final long DB_VERSION = 0;

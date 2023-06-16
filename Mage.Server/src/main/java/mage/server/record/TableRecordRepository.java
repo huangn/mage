@@ -20,7 +20,7 @@ public enum TableRecordRepository {
 
     instance;
 
-    private static final String JDBC_URL = "jdbc:sqlite:./db/table_record.db";
+    private static final String JDBC_URL = "jdbc:sqlite:db/table_record.db";
     private static final String VERSION_ENTITY_NAME = "table_record";
     // raise this if db structure was changed
     private static final long DB_VERSION = 0;
